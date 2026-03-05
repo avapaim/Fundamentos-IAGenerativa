@@ -40,4 +40,4 @@ class LLMClient:
                 messages=messages,
                 temperature=temperature
             )
-            return response.output_text.strip()
+            return response.choices[0].message.content.strip()

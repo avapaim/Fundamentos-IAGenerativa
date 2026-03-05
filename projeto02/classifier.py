@@ -1,4 +1,5 @@
 from llm_client import gerar_resposta
+from validator import safe_classification
 
 CATEGORIAS = ["Suporte", "Vendas", "Financeiro", "Geral"]
 
@@ -13,5 +14,10 @@ def classificar_mensagem(mensagem, temperature=0.2):
 
         Mensagem: "{mensagem}"
     """
+
     resposta = gerar_resposta(prompt, temperature)
-    return resposta
+
+    # 🔒 Camada de segurança (produção ready)
+    resultado_seguro = safe_classification(resposta)
+
+    return resultado_seguro
