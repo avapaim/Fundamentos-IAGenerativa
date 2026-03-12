@@ -1,5 +1,20 @@
+# ambiente virtual
 venv/
+
+# python cache
 __pycache__/
 *.pyc
+
+# variáveis de ambiente (chaves API)
 .env
 .env_copy
+
+# memória do chatbot (arquivo gerado automaticamente)
+projeto04/memoria_chat.json
+
+# arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# arquivos temporários do VSCode
+.vscode/
