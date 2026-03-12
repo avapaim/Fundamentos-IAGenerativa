@@ -73,6 +73,29 @@ Disciplina eletiva focada em conceitos e aplicações práticas de Inteligência
 
 ---
 
+### Aula 04 - Assistente com Memória e Funções
+
+**Objetivo**: Construir um assistente conversacional com gerenciamento de memória e integração de funções Python
+
+**Conteúdo**:
+- Definição de persona do assistente
+- Limite de memória para otimizar tokens
+- Integração de funções Python (calcular idade, IMC, conversor de temperatura, etc)
+- Persistência de dados com JSON
+- Carregamento de histórico ao reiniciar
+
+**Projeto Prático** (`projeto04/`):
+- Chatbot com memória gerenciada
+- Sistema de comandos especiais
+- Funções Python automaticamente executadas
+- Histórico persistente
+
+**Desafio**: [Ver tarefa.md](projeto04/tarefa.md)
+
+📊 [Acessar Slides](https://eletiva-aula04.lovable.app/)
+
+---
+
 ## 📂 Estrutura do Repositório
 
 ```
@@ -99,6 +122,10 @@ Disciplina eletiva focada em conceitos e aplicações práticas de Inteligência
 │   └── conhecimento/   # Base de conhecimento
 │       └── conhecimento.txt
 │
+├── projeto04/          # Aula 04 - Assistente com Memória
+│   ├── tarefa.md       # Desafio da aula
+│   └── ...             # Implementação do aluno
+│
 └── README.md          # Este arquivo
 ```
 
@@ -124,7 +151,4 @@ Disciplina eletiva focada em conceitos e aplicações práticas de Inteligência
 
 ## 📝 Notas Importantes
 
-- Cada aula constrói sobre conceitos da aula anterior
-- Projeto 02 foca em padrões de produção não abordados no Projeto 01
-- Todos os scripts requerem autenticação OpenAI válida
-
+- Todos os scripts requerem autenticação LLM válida

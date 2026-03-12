@@ -1,8 +1,14 @@
-========================================
-REEMBOLSOS - LOJA VIRTUAL EXEMPLO
-========================================
+CHUNK1 ========================================
+CHUN2 REEMBOLSOS - LOJA VIRTUAL EXEMPLO
+CHUN3 ========================================
+4....
 
-1. POLÍTICA GERAL DE REEMBOLSO
+
+1. POLÍ
+TICA G
+ERAL D
+E REEM
+BOLSO
 --------------------------------------------------
 A loja permite solicitação de reembolso em até 7 dias corridos após o recebimento do produto, conforme o direito de arrependimento.
 
